@@ -9,7 +9,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/Header/header.php';
 
 $servername = "localhost";
 $username = "root";
-$password = "thiagobar8";
+$password = "senha123";
 $database = "usuarios";
 
 $conn = new mysqli($servername, $username, $password, $database);
