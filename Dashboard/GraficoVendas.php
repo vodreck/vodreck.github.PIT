@@ -1,5 +1,5 @@
 <?php
-$connVendas = new mysqli("localhost", "root", "thiagobar8", "estoque");
+$connVendas = new mysqli("localhost", "root", "senha123", "estoque");
 
 if ($connVendas->connect_error) {
     die("Falha na conexão com o banco de dados de vendas: " . $connVendas->connect_error);
