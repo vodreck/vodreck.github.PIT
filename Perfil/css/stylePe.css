@@ -1,0 +1,88 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    padding-top: 120px;
+    background-color: #d1a573ce!important;
+}
+#titulo{
+
+    color: #fff!important;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn {
+    margin-top: 10px !important;
+    padding: 10px 15px !important;
+    background-color: #FFEDD9 !important;
+    color: rgb(0, 0, 0) !important; 
+    border: none !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    font-size: 16px !important;
+    transition: background-color 0.3s ease !important;
+}
+
+.btn:hover {
+    background-color: #5D3E00 !important;
+    border-color: #815316 !important;
+}
+
+
+.redefinir-senha-button {
+    margin-right: 10px !important;
+    padding: 10px 15px !important;
+    background-color: #FFEDD9 !important;
+    color: rgb(0, 0, 0) !important; 
+    border: none !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    font-size: 16px !important;
+    transition: background-color 0.3s ease !important;
+}
+
+.redefinir-senha-button:hover {
+    background-color: #5D3E00 !important;
+    border-color: #815316 !important;
+}
+
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.perfil-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.endereco-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+p.redefinir-senha-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.redefinir-senha-button:hover {
+    background-color: #0056b3;
+}
