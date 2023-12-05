@@ -17,7 +17,7 @@
                  
                  $servername = "localhost";
                  $username = "root";
-                 $password = "thiagobar8";
+                 $password = "senha123";
                  $dbname = "estoque";
                  $dbnameUsuarios = "usuarios";
  
@@ -28,7 +28,7 @@
                  $connUsuarios = new mysqli($servername, $username, $password, $dbnameUsuarios);
 
                
-                $connVendas = new mysqli("localhost", "root", "thiagobar8", "estoque");
+                $connVendas = new mysqli("localhost", "root", "senha123", "estoque");
 
         
                 if ($connVendas->connect_error) {
