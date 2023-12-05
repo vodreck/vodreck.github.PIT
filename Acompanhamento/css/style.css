@@ -1,0 +1,92 @@
+
+
+body {
+    padding-top: 140px;
+    background-color: #fdead5;
+}
+
+
+#deliveryConfirmation {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #deliveryConfirmation button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  #deliveryConfirmation button:hover {
+    background-color: #0056b3;
+  }
+
+.page-header {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+#map {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #007bff;
+}
+#map {
+    height: 400px;
+  }
+  .page-header {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+  }
+
+.google-maps-marker {
+    background-color: #dc3545;
+    color: #fff;
+    border: 1px solid #dc3545;
+    padding: 8px 12px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+.status {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.status.pending {
+    color: #ff8800; 
+}
+
+.status.shipped {
+    color: #ffee03;
+}
+
+.status.delivered {
+    color: #49dc35; 
+}

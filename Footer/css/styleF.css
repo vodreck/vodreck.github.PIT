@@ -1,0 +1,102 @@
+.footer-dark {
+  bottom: 0 !important; 
+  left: 0; 
+  width: 100%; 
+  margin-top: 3rem;
+  padding: 25px 0!important;
+  color: #f0f9ff!important;
+  background-color: #302418!important;
+}
+
+.content-area {
+  min-height: calc(100vh - 120px); 
+}
+  
+  .footer-dark h3 {
+    margin-top:0!important;
+    margin-bottom:12px!important;
+    font-weight:bold!important;
+    font-size:16px!important;
+  }
+  #ContainerFooter {
+    background-color: #302418!important;
+
+  }
+  .footer-dark ul {
+    padding:0!important;
+    list-style:none!important;
+    line-height:1.6!important;
+    font-size:14px!important;
+    margin-bottom:0!important;
+  }
+  
+  .footer-dark ul a {
+    color:inherit!important;
+    text-decoration:none!important;
+    opacity:0.6!important;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8!important;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center!important;
+      padding-bottom:20px!important;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px!important;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0!important;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6!important;
+    margin-bottom:0!important;
+    color: #ffffff!important;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center!important;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center!important;
+      margin-top:20px!important;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px!important;
+    width:36px!important;
+    height:36px!important;
+    line-height:36px!important;
+    display:inline-block!important;
+    text-align:center!important;
+    border-radius:50%!important;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4)!important;
+    margin:0 8px!important;
+    color:#fff!important;
+    opacity:0.75!important;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9!important;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center!important;
+    padding-top:24px!important;
+    opacity:0.3!important;
+    font-size:13px!important;
+    margin-bottom:0!important;
+  }
+  

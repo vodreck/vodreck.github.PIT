@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+
+body {
+    background: #F1CFA7;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 140px;
+}
+
+
+.container {
+    background-color: rgba(241, 207, 167, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #5D3E00; 
+    margin-bottom: 20px; 
+}
+
+span {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    padding-top: 0px;
+    padding-bottom: 0%;
+    color: #5D3E00;
+    align-items: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+h1 {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+   
+}
+
+
+input[type="text"] {
+    background: #FFEDD9;
+    width: 100%;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    border: 1px solid #5D3E00;
+    border-radius: 15px;
+}
+
+
+input[type="file"]::-webkit-file-upload-button {
+    background: #5D3E00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+    background: #4B3200;
+}
+
+
+input[type="file"]::after {
+
+    margin-left: 10px;
+    font-weight: normal;
+    color: #5D3E00;
+}
+
+/* Estilo para o nome do arquivo selecionado */
+input[type="file"]::before {
+
+    margin-right: 10px;
+    font-weight: normal;
+    color: #5D3E00;
+}
+
+
+input[type="file"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 1rem;
+    padding-right: 25px;
+}
+
+
+
+
+input[type="submit"] {
+    cursor: pointer;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 90%;
+    margin-top: 3.5rem;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    font-size: 1.1rem;
+    transition: all 0.5s;
+    align-self: center;
+}
+
+input[type="submit"]:hover {
+    background: #5D3E00;
+    color: white;
+}
+
+
+.success-message, .error-message {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.success-message {
+    color: #4CAF50;
+}
+
+.error-message {
+    color: #f44336;
+}
